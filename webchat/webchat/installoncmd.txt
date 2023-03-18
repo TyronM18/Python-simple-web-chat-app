@@ -1,0 +1,9 @@
+pip install flask
+pip install flask-socketio
+pip install python-socketio
+pip install gunicorn
+pip install gevent-websocket
+pip install eventlet
+pip install gevent
+pip install eventlet==0.30.2
+gunicorn -k eventlet -w 1 app:app
